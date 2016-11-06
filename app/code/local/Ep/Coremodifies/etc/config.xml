@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * EP Coremodifies - Basic Magento module aiming to collect all the bugfixes affecting Magento 1
+ *
+ * @category Mage
+ * @package  Ep_Coremodifies
+ * @author   Enzo Perrotta
+ * @since    2016-11-06
+ */
+-->
+<config>
+    <modules>
+        <Ep_Coremodifies>
+            <version>0.1.0</version>
+        </Ep_Coremodifies>
+    </modules>
+    <global>
+        <models>
+            <reports_resource>
+                <rewrite>
+                    <quote_collection>Ep_Coremodifies_Model_Resource_Reports_Quote_Collection</quote_collection>
+                </rewrite>
+            </reports_resource>
+        </models>
+    </global>
+</config>
