@@ -12,21 +12,26 @@
 <config>
     <modules>
         <Ep_Coremodifies>
-            <version>0.1.1</version>
+            <version>0.1.2</version>
         </Ep_Coremodifies>
     </modules>
     <global>
         <models>
-            <reports_resource>
-                <rewrite>
-                    <quote_collection>Ep_Coremodifies_Model_Resource_Reports_Quote_Collection</quote_collection>
-                </rewrite>
-            </reports_resource>
             <catalog>
                 <rewrite>
                     <url>Ep_Coremodifies_Model_Catalog_Url</url>
                 </rewrite>
             </catalog>
+            <catalogrule_resource>
+                <rewrite>
+                    <rule>Ep_Coremodifies_Model_Resource_CatalogRule_Rule</rule>
+                </rewrite>
+            </catalogrule_resource>
+            <reports_resource>
+                <rewrite>
+                    <quote_collection>Ep_Coremodifies_Model_Resource_Reports_Quote_Collection</quote_collection>
+                </rewrite>
+            </reports_resource>
         </models>
     </global>
 </config>
